@@ -1,0 +1,23 @@
+{
+  "name": "get-value-in-range",
+  "version": "1.0.0",
+  "description": "Find the position of the value within a range.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/_mocha --",
+    "coverage": "node_modules/.bin/istanbul cover node_modules/.bin/_mocha --",
+    "view-coverage": "open ./coverage/lcov-report/index.html",
+    "lint": "node_modules/.bin/eslint ./**/*.js --"
+  },
+  "repository": "flipactual/get-value-in-range",
+  "author": "Flip",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^1.10.3",
+    "istanbul": "^0.4.1",
+    "mocha": "^2.3.4"
+  },
+  "engines": {
+    "node": ">=5.0.0"
+  }
+}
