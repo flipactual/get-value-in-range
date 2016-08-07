@@ -12,8 +12,8 @@
  * Instatiated function with range set.
  */
 function getValueInRange(values) {
-  const range = Math.max(...values) - Math.min(...values)
-  return (value) => value / range - 1
+  const range = Math.max(...values) - Math.min(...values);
+  return value => (value / range) - 1;
 }
 
 /**
@@ -32,4 +32,4 @@ function getValueInRange(values) {
  * The position of the value within the range.
  */
 
-module.exports = getValueInRange
+module.exports = getValueInRange;
