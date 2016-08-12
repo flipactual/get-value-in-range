@@ -5,7 +5,7 @@
  * The value to place within the range.
  *
  * @example
- * const getValueInRange = require('get-value-in-range')([10, 5])
+ * const getValueInRange = require('get-value-in-range')([10, 5]);
  * // → instantiatedGetValueInRange
  *
  * @return {instantiatedGetValueInRange}
@@ -25,7 +25,7 @@ function getValueInRange(values) {
  * The value to place within the range.
  *
  * @example
- * getValueInRange(7.5)
+ * getValueInRange(7.5);
  * // → 0.5
  *
  * @return {Number}

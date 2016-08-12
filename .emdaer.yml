@@ -1,0 +1,17 @@
+- shields:
+    style: 'flat-square'
+    shields:
+      - alt: 'flipactual'
+        image: 'badge/😋-flipactual-43A6F6.svg'
+        link: 'https://flipactual.com/'
+      - alt: 'Travis'
+        image: 'travis/flipactual/get-value-in-range.svg'
+        link: 'https://travis-ci.org/flipactual/get-value-in-range/'
+      - alt: 'Node'
+        image: 'node/v/get-value-in-range.svg'
+        link: 'http://npmjs.com/package/get-value-in-range'
+      - alt: 'NPM'
+        image: 'npm/v/get-value-in-range.svg'
+        link: 'http://npmjs.com/package/get-value-in-range'
+- jsdoc: 'index.js'
+- license: true
