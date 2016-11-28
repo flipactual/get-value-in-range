@@ -1,7 +1,12 @@
+# get-value-in-range
+
 [![flipactual](https://img.shields.io/badge/😋-flipactual-218AC7.svg?style=flat-square)](https://www.flipactual.com/)
 [![Travis](https://img.shields.io/travis/flipactual/get-value-in-range.svg?style=flat-square)](https://travis-ci.org/flipactual/get-value-in-range/)
+[![Codecov](https://img.shields.io/codecov/c/github/flipactual/get-value-in-range.svg?style=flat-square)](https://codecov.io/gh/flipactual/get-value-in-range/)
 [![Node](https://img.shields.io/node/v/get-value-in-range.svg?style=flat-square)](http://npmjs.com/package/get-value-in-range)
 [![NPM](https://img.shields.io/npm/v/get-value-in-range.svg?style=flat-square)](http://npmjs.com/package/get-value-in-range)
+
+Calculate range adjusted values
 
 ## Scripts
 

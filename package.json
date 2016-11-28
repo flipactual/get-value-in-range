@@ -1,7 +1,7 @@
 {
   "name": "get-value-in-range",
-  "version": "1.0.0",
-  "description": "Find the position of the value within a range.",
+  "version": "1.0.1",
+  "description": "Calculate range adjusted values",
   "repository": "flipactual/get-value-in-range",
   "author": {
     "name": "Flip",
@@ -15,7 +15,7 @@
   "scripts": {
     "test": "node_modules/.bin/_mocha --",
     "lint": "node_modules/.bin/eslint ./**/*.js --",
-    "write-readme": "./node_modules/.bin/emdaer"
+    "readme": "./node_modules/.bin/emdaer"
   },
   "license": "MIT",
   "devDependencies": {
