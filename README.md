@@ -53,7 +53,7 @@ Create a function with specified range for finding values within.
 
 | Param | Type | Description |
 | --- | --- | --- |
-| values | <code>Number</code> | The value to place within the range. |
+| values | <code>Number</code> | All of the values necessary to calculate the range |
 
 **Example**  
 ```js

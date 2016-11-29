@@ -2,7 +2,7 @@
  * Create a function with specified range for finding values within.
  *
  * @param {Number} values
- * The value to place within the range.
+ * All of the values necessary to calculate the range
  *
  * @example
  * const getValueInRange = require('get-value-in-range')([10, 5]);
