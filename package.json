@@ -1,6 +1,6 @@
 {
   "name": "get-value-in-range",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Calculate range adjusted values",
   "repository": "flipactual/get-value-in-range",
   "author": {
@@ -13,8 +13,11 @@
     "node": ">=6.0.0"
   },
   "scripts": {
-    "test": "node_modules/.bin/_mocha --",
-    "lint": "node_modules/.bin/eslint ./**/*.js --",
+    "test": "mocha",
+    "coverage": "nyc --reporter=html mocha",
+    "view-coverage": "open ./coverage/index.html",
+    "codecov": "nyc --reporter=text-lcov mocha > coverage.lcov && codecov",
+    "lint": "eslint ./**/*.js --",
     "readme": "emdaer",
     "compile": "babel src -d lib",
     "prepublish": "npm run compile"
