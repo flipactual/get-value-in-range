@@ -8,26 +8,6 @@
 
 Calculate range adjusted values
 
-## Scripts
-
-### `test` – run the tests
-
-```sh
-npm run test
-```
-
-### `lint` – lint the codebase
-
-```sh
-npm run lint
-```
-
-### `write-readme` – generate the README
-
-```sh
-npm run write-readme
-```
-
 ## Functions
 
 <dl>
@@ -74,6 +54,26 @@ const getValueInRange = require('get-value-in-range')([10, 5]);
 ```js
 getValueInRange(7.5);
 // → 0.5
+```
+
+## Scripts
+
+### `test` – run the tests
+
+```sh
+npm run test
+```
+
+### `lint` – lint the codebase
+
+```sh
+npm run lint
+```
+
+### `write-readme` – generate the README
+
+```sh
+npm run write-readme
 ```
 
 ## License
