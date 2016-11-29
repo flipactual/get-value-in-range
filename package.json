@@ -1,6 +1,6 @@
 {
   "name": "get-value-in-range",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Calculate range adjusted values",
   "repository": "flipactual/get-value-in-range",
   "author": {
@@ -26,10 +26,12 @@
   "devDependencies": {
     "babel-cli": "^6.18.0",
     "babel-preset-latest": "^6.16.0",
+    "codecov": "^1.0.1",
     "emdaer": "^0.3.2",
     "eslint": "^3.2.2",
     "eslint-config-airbnb-base": "^5.0.1",
     "eslint-plugin-import": "^1.13.0",
-    "mocha": "^2.3.4"
+    "mocha": "^2.3.4",
+    "nyc": "^10.0.0"
   }
 }
