@@ -1,5 +1,5 @@
 const assert = require('assert');
-const getValueInRange = require('../index')([
+const getValueInRange = require('../')([
   10,
   5,
 ]);
