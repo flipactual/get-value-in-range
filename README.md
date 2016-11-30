@@ -8,51 +8,23 @@
 
 Calculate range adjusted values
 
-## Functions
-
-<dl>
-<dt><a href="#getValueInRange">getValueInRange(values)</a> ⇒ <code><a href="#instantiatedGetValueInRange">instantiatedGetValueInRange</a></code></dt>
-<dd><p>Create a function with specified range for finding values within.</p>
-</dd>
-</dl>
-
-## Typedefs
-
-<dl>
-<dt><a href="#instantiatedGetValueInRange">instantiatedGetValueInRange</a> ⇒ <code>Number</code></dt>
-<dd></dd>
-</dl>
-
 <a name="getValueInRange"></a>
 
-## getValueInRange(values) ⇒ <code>[instantiatedGetValueInRange](#instantiatedGetValueInRange)</code>
-Create a function with specified range for finding values within.
+## getValueInRange(value, values) ⇒ <code>number</code>
+Find the position of the value within a range where 0 is the minimum value
+and 1 is the maximum value.
 
 **Kind**: global function  
-**Returns**: <code>[instantiatedGetValueInRange](#instantiatedGetValueInRange)</code> - Instatiated function with range set.  
+**Returns**: <code>number</code> - The position of the value within the range  
 
 | Param | Type | Description |
 | --- | --- | --- |
-| values | <code>Number</code> | All of the values necessary to calculate the range |
+| value | <code>number</code> | The value to place within the range |
+| values | <code>number</code> | All of the values necessary to calculate the range |
 
 **Example**  
 ```js
-const getValueInRange = require('get-value-in-range')([10, 5]);
-// → instantiatedGetValueInRange
-```
-<a name="instantiatedGetValueInRange"></a>
-
-## instantiatedGetValueInRange ⇒ <code>Number</code>
-**Kind**: global typedef  
-**Returns**: <code>Number</code> - The position of the value within the range.  
-
-| Param | Type | Description |
-| --- | --- | --- |
-| value | <code>Number</code> | The value to place within the range. |
-
-**Example**  
-```js
-getValueInRange(7.5);
+getValueInRange(7.5, [10, 5]);
 // → 0.5
 ```
 
